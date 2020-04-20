@@ -49,12 +49,13 @@ def addItens():
 
 
     f = open("README.md", "a")
+    f.write('<!-- index starts -->' + '\n')
     f.write(mdHeader2("Categories") + '\n')
     for category in jFolder:
-        f.write(mdBullet1Link(category,category) + '\n')
+        f.write(mdHeader2(category) + '\n')
         for categoryFile in jFolder[category]:
             f.write(mdBullet2Link(categoryFile,categoryFile) + '\n')
-         
+    f.write('<!-- index ends -->'+ '\n')    
     
     
     
@@ -66,9 +67,9 @@ def mdHeader2(desc):
 def mdHeader2Link(desc,ref):
     return "## [" + desc +'](/'+ ref +')';
 def mdBullet1Link(desc,ref):
-    return "* [" + desc +'](/'+ ref +')';
+    return "- [" + desc +'](/'+ ref +')';
 def mdBullet2Link(desc,ref):
-    return "** [" + desc +'](/'+ ref +')';
+    return "-- [" + desc +'](/'+ ref +')';
 
 if __name__ == '__main__':
     sys.exit(main())
