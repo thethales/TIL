@@ -9,9 +9,10 @@ A collection of my snippets and general gathered information on topics of life a
 
 # Summary
 
+
+## Categories 
 <!-- index starts -->
-## Categories
-## Visual Studio Code
--- [Extensões.md](/Extensões.md)
--- [Introdução.md](/Introdução.md)
+### Visual Studio Code 
+  * [Extensões](/Extensões.md) 
+  * [Introdução](/Introdução.md) 
 <!-- index ends -->

@@ -49,13 +49,13 @@ def addItens():
 
 
     f = open("README.md", "a")
+    f.write(mdHeader2("Categories") )
     f.write('<!-- index starts -->' + '\n')
-    f.write(mdHeader2("Categories") + '\n')
     for category in jFolder:
-        f.write(mdHeader2(category) + '\n')
+        f.write(mdHeader3(category))
         for categoryFile in jFolder[category]:
-            f.write(mdBullet2Link(categoryFile,categoryFile) + '\n')
-    f.write('<!-- index ends -->'+ '\n')    
+            f.write(mdBullet2Link(categoryFile,categoryFile))
+    f.write('<!-- index ends -->')    
     
     
     
@@ -63,13 +63,15 @@ def addItens():
     return;
 
 def mdHeader2(desc):
-    return "## " + desc;
-def mdHeader2Link(desc,ref):
-    return "## [" + desc +'](/'+ ref +')';
+    return "## " + desc.replace('.md','') + ' \n';
+def mdHeader3(desc):
+    return "### " + desc.replace('.md','') + ' \n';
+def mdHeader3Link(desc,ref):
+    return "### [" + desc.replace('.md','') +'](/'+ ref +') \n';
 def mdBullet1Link(desc,ref):
-    return "- [" + desc +'](/'+ ref +')';
+    return "* [" + desc.replace('.md','') +'](/'+ ref +') \n';
 def mdBullet2Link(desc,ref):
-    return "-- [" + desc +'](/'+ ref +')';
+    return "  * [" + desc.replace('.md','') +'](/'+ ref +') \n';
 
 if __name__ == '__main__':
     sys.exit(main())

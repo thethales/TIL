@@ -9,3 +9,4 @@ A collection of my snippets and general gathered information on topics of life a
 
 # Summary
 
+
