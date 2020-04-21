@@ -13,7 +13,7 @@ A collection of my snippets and general gathered information on topics of life a
 ## Categories 
 <!-- index starts -->
 ### Maker Softwell 
-  * [Consultar usuários inativos no banco de dados](/Consultar usuários inativos no banco de dados.md) 
+  * [consulta-usuarios-inativos](/consulta-usuarios-inativos.md) 
 ### Visual Studio Code 
   * [Extensões](/Extensões.md) 
 <!-- index ends -->
