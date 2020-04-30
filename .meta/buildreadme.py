@@ -54,7 +54,7 @@ def addItens():
     for category in jFolder:
         f.write(mdHeader3(category))
         for categoryFile in jFolder[category]:
-            f.write(mdBullet2Link(categoryFile,categoryFile))
+            f.write(mdBullet2Link(categoryFile,category + '/' + categoryFile))
     f.write('<!-- index ends -->')    
     
     
