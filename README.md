@@ -12,8 +12,10 @@ A collection of my snippets and general gathered information on topics of life a
 
 ## Categories 
 
+### Coursera 
+  * [Increase Mini Player Size](<Coursera/Increase Mini Player Size.md>) 
 ### ffmpeg 
-  * [Extract all frames](<ffmpeg/Extract all frames>) 
+  * [Extract all frames](<ffmpeg/Extract all frames.md>) 
 ### Maker Softwell 
   * [consulta-usuarios-inativos](<Maker Softwell/consulta-usuarios-inativos.md>) 
 ### Visual Studio Code 
