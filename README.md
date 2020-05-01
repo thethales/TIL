@@ -13,11 +13,11 @@ A collection of my snippets and general gathered information on topics of life a
 ## Categories 
 <!-- index starts -->
 ### ffmpeg 
-  * [Extract all frames](/ffmpeg/Extract all frames) 
+  * [Extract all frames](<ffmpeg/Extract all frames>) 
 ### Maker Softwell 
-  * [consulta-usuarios-inativos](/Maker Softwell/consulta-usuarios-inativos.md) 
+  * [consulta-usuarios-inativos](<Maker Softwell/consulta-usuarios-inativos.md>) 
 ### Visual Studio Code 
-  * [Extensões](/Visual Studio Code/Extensões.md) 
+  * [Extensões](<Visual Studio Code/Extensões.md>) 
 ### Youtube-DL 
-  * [Windows](/Youtube-DL/Windows) 
+  * [Windows](<Youtube-DL/Windows>) 
 <!-- index ends -->

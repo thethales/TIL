@@ -67,11 +67,11 @@ def mdHeader2(desc):
 def mdHeader3(desc):
     return "### " + desc.replace('.md','') + ' \n';
 def mdHeader3Link(desc,ref):
-    return "### [" + desc.replace('.md','') +'](/'+ ref +') \n';
+    return "### [" + desc.replace('.md','') +'](<'+ ref +'>) \n';
 def mdBullet1Link(desc,ref):
-    return "* [" + desc.replace('.md','') +'](/'+ ref +') \n';
+    return "* [" + desc.replace('.md','') +'](<'+ ref +'>) \n';
 def mdBullet2Link(desc,ref):
-    return "  * [" + desc.replace('.md','') +'](/'+ ref +') \n';
+    return "  * [" + desc.replace('.md','') +'](<'+ ref +'>) \n';
 
 if __name__ == '__main__':
     sys.exit(main())
