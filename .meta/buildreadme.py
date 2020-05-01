@@ -50,12 +50,12 @@ def addItens():
 
     f = open("README.md", "a")
     f.write(mdHeader2("Categories") )
-    f.write('<!-- index starts -->' + '\n')
+    f.write('\n')
     for category in jFolder:
         f.write(mdHeader3(category))
         for categoryFile in jFolder[category]:
             f.write(mdBullet2Link(categoryFile,category + '/' + categoryFile))
-    f.write('<!-- index ends -->')    
+    
     
     
     

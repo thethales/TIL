@@ -4,7 +4,7 @@ A collection of my snippets and general gathered information on topics of life a
 
 
 ## About
-- Inspired (Derived) by simonw/til and jbranchaud/til
+- Inspired (Derived) by [simonw/til](https://github.com/simonw/til) and [jbranchaud/til](https://github.com/jbranchaud/til)
 
 
 ## Summary
