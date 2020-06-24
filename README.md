@@ -6,6 +6,7 @@ TIL (Today I Learned), a collection of  snippets and general gathered informatio
 ## About
 - Originally inspired (Derived) by [simonw/til](https://github.com/simonw/til) and [jbranchaud/til](https://github.com/jbranchaud/til).
 - The Readme File is constantly rebuilt by [buildreadme.py](.meta/buildreadme.py). The script parses the directory structere and concatenates the generated listing with the base [readme file](.meta/basereadme.md). For utility purposes the JSON generated during the parsing is also saved in the directory, being available for direct consulting.
+- License: (MIT License)[LICENSE]
 
 ## Roadmap
 - Add a Github Action to automatically build the index
@@ -24,6 +25,8 @@ TIL (Today I Learned), a collection of  snippets and general gathered informatio
   * [Layout_Study.js](<Instagram/Layout_Study.js>) 
 ### Maker Softwell 
   * [consulta-usuarios-inativos](<Maker Softwell/consulta-usuarios-inativos.md>) 
+### PowerShell 
+  * [Backup Zotero](<PowerShell/Backup Zotero.md>) 
 ### Visual Studio Code 
   * [Extensões](<Visual Studio Code/Extensões.md>) 
 ### Windows 
