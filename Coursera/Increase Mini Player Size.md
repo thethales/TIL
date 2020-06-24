@@ -1,5 +1,5 @@
 # Increase the Mini Player Size in Cousera using Tamper/Grease Monkey
-
+# #GreaseMonkey
 ```Javascript
 // ==UserScript==
 // @name         Coursera Plus
@@ -20,7 +20,7 @@
         document.head.append(style);
     }
 
-    //Adds a slight increase of 100px to the mini scrollabe player, so there's more area for view
+    //Adds a slight increase of 100px to the mini scrollabe player, so there's more area for view without invanding the transcription text area
     addStyle('.rc-VideoMiniPlayer.mini .rc-VideoMiniControls, .rc-VideoMiniPlayer.mini .video-main-player-container {width:400px !important}');
 })();
 
