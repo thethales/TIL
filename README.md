@@ -26,38 +26,38 @@ In any case I believe knowledge should be free, and any piece of information can
 
 
 ### Base64 
-* [Base64](<src\Base64\specificacoes.md>) 
-  * [Extract file format from an incomplete URI](<src\Base64\specificacoes.md>) 
+* [Base64](<src/Base64/specificacoes.md>) 
+  * [Extract file format from an incomplete URI](<src/Base64/specificacoes.md>) 
 ### ffmpeg 
-* [FFMPEG](<src\ffmpeg\Extract all frames.md>) 
-  * [FFMPEG extract all frames of a video](<src\ffmpeg\Extract all frames.md>) 
+* [FFMPEG](<src/ffmpeg/Extract all frames.md>) 
+  * [FFMPEG extract all frames of a video](<src/ffmpeg/Extract all frames.md>) 
 ### Fonts 
-* [Default fonts in Operating Systems](<src\Fonts\default-fonts-in-os.md>) 
-* [Operating systems default sans-serif fonts](<src\Fonts\default-fonts-in-os.md>) 
+* [Default fonts in Operating Systems](<src/Fonts/default-fonts-in-os.md>) 
+* [Operating systems default sans-serif fonts](<src/Fonts/default-fonts-in-os.md>) 
 ### GIT 
-* [How do I update a GitHub forked repository?](<src\GIT\rebase.md>) 
+* [How do I update a GitHub forked repository?](<src/GIT/rebase.md>) 
 ### notes\Coursera 
-* [Increase the Mini Player Size in Cousera using Tamper/Grease Monkey](<src\notes\Coursera\Grease Monkey.md>) 
+* [Increase the Mini Player Size in Cousera using Tamper/Grease Monkey](<src/notes/Coursera/Grease Monkey.md>) 
 ### notes\Instagram 
 ### notes\Jquery 
-  * [Como obter parâmetros URL Jquery](<src\notes\Jquery\parametros_url.md>) 
+  * [Como obter parâmetros URL Jquery](<src/notes/Jquery/parametros_url.md>) 
 ### notes\Maker Softwell 
-* [Consultar usuários inativos no banco de dados](<src\notes\Maker Softwell\consulta-usuarios-inativos.md>) 
+* [Consultar usuários inativos no banco de dados](<src/notes/Maker Softwell/consulta-usuarios-inativos.md>) 
 ### OOP 
-* [Object Oriented Programming](<src\OOP\Extend-Include.md>) 
-  * [Mnemonic About Include & Extend](<src\OOP\Extend-Include.md>) 
+* [Object Oriented Programming](<src/OOP/Extend-Include.md>) 
+  * [Mnemonic About Include & Extend](<src/OOP/Extend-Include.md>) 
 ### Python 
-* [How to run a WebServer in Python](<src\Python\how_to_run_webserver.md>) 
-* [Make sure the server is created at current directory](<src\Python\how_to_run_webserver.md>) 
-* [Create server object listening the port 80](<src\Python\how_to_run_webserver.md>) 
-* [Start the web server](<src\Python\how_to_run_webserver.md>) 
+* [How to run a WebServer in Python](<src/Python/how_to_run_webserver.md>) 
+* [Make sure the server is created at current directory](<src/Python/how_to_run_webserver.md>) 
+* [Create server object listening the port 80](<src/Python/how_to_run_webserver.md>) 
+* [Start the web server](<src/Python/how_to_run_webserver.md>) 
 ### Visual Studio Code 
 ### Windows 
-* [Visualizar Senhas de WiFi Gravadas](<src\Windows\cmd.md>) 
-* [Debloating Windows 10](<src\Windows\Debloat Windows 10.md>) 
-  * [Removing packages with Powershell](<src\Windows\Debloat Windows 10.md>) 
-* [MKLink - Links Simbólicos](<src\Windows\MkLink.md>) 
+* [Visualizar Senhas de WiFi Gravadas](<src/Windows/cmd.md>) 
+* [Debloating Windows 10](<src/Windows/Debloat Windows 10.md>) 
+  * [Removing packages with Powershell](<src/Windows/Debloat Windows 10.md>) 
+* [MKLink - Links Simbólicos](<src/Windows/MkLink.md>) 
 ### Youtube-DL 
-* [YoutubeDL Tips on Windows](<src\Youtube-DL\Windows.md>) 
+* [YoutubeDL Tips on Windows](<src/Youtube-DL/Windows.md>) 
 ### Zotero 
-* [Realizar o Backup do Banco de Dados do Zotero (.zip)](<src\Zotero\Backup Zotero.md>) 
+* [Realizar o Backup do Banco de Dados do Zotero (.zip)](<src/Zotero/Backup Zotero.md>) 
