@@ -2,65 +2,38 @@ import sys
 import os 
 import shutil 
 import json
+import glob
 
 
 def main():
-
     source      = ".META/readmebasefile.md"
     destination = "README.md"
-
     dest = shutil.copyfile(source, destination) 
-    
-    #addCategorias()
-    addItens()
+    addItens2()
 
+def addItens2():
+    arr_ignore = ['References']
+    directoryList =[]
+    fReadme = open("README.md", "a")
+    fReadme.write('\n')
 
-def addCategorias():
-    arr_ignore = ['.git','.meta']
+    for path, subdirs, files in os.walk('src', topdown=True):
+        for name in files:
+            file = os.path.join(path,name)
+            directory = os.path.dirname(file).replace('src\\','')
+            if(directory not in directoryList):
+                fReadme.write(mdHeader3(directory))
+                directoryList.append(directory)
+            with open(file) as tempf:
+                lines = tempf.readlines()
+                for line in lines:
+                    if line.startswith('# ') and line.replace('#', '').strip() not in arr_ignore:
+                        fReadme.write(mdBullet1Link(line.replace('#', '').strip(),file))
+                    if line.startswith('## ') and line.replace('#', '').strip() not in arr_ignore:
+                        fReadme.write(mdBullet2Link(line.replace('#', '').strip(),file))
     
-    folders = [f for f in os.listdir('.') if os.path.isdir(f)]
-    
-    f = open("README.md", "a")
-    f.write(mdHeader2("Categories") + '\n')
-    for category in folders:
-        if (category not in arr_ignore):
-            f.write('* ' + category + '\n')  
-    
-    f.close()
-    return;
+    return
 
-def addItens():
-    arr_ignore = ['.git','.meta']
-    jFolder = {}
-
-    diretorio = [f for f in os.listdir('.') if os.path.isdir(f)]
-    
-    for category in diretorio:
-        if (category not in arr_ignore):
-            diretorioFiles = os.listdir('./'+category+'/') 
-            jFolder[category] = diretorioFiles
-
-    #Keeps a copy of the JSON on the directory
-    meta_file_content = jFolder
-    file_meta_json = open('.meta/meta.json', "w")
-    json.dump(jFolder, file_meta_json)
-    file_meta_json.close()
-
-
-
-    f = open("README.md", "a")
-    f.write(mdHeader2("Categories") )
-    f.write('\n')
-    for category in jFolder:
-        f.write(mdHeader3(category))
-        for categoryFile in jFolder[category]:
-            f.write(mdBullet2Link(categoryFile,category + '/' + categoryFile))
-    
-    
-    
-    
-    f.close()
-    return;
 
 def mdHeader2(desc):
     return "## " + desc.replace('.md','') + ' \n';
