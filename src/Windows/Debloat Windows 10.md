@@ -1,7 +1,11 @@
-# Removingg packages with Powershell
+# Debloating Windows 10
 
 
-## Remove YourPhone
+## Removing packages with Powershell
+
+
+### Remove YourPhone
+
 ```Powershell
 Get-AppxPackage *Microsoft.YourPhone* -AllUsers | Remove-AppxPackage
 ```

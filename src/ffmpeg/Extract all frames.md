@@ -1,5 +1,6 @@
+# FFMPEG
 
-# Extract all frames 
+## FFMPEG extract all frames of a video
 
 ```
 ffmpeg -i "C:\video.mp4"  -r 24/1 C:\folder\img%03d.jpg

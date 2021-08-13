@@ -1,5 +1,8 @@
 # Realizar o Backup do Banco de Dados do Zotero (.zip)
 
+
+No Powershell:
+
 ```powershell
 #th
 #2018-09-09

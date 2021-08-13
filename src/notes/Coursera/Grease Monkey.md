@@ -1,7 +1,9 @@
 # Increase the Mini Player Size in Cousera using Tamper/Grease Monkey
-# This script may or may not work depending on changes made by coursera in their CSS and HTML site structure
-# Should be Working up to 2020/03
-# #GreaseMonkey
+
+Increase the Mini Player Size in Cousera using Tamper/Grease Monkey. This script may or may not work depending on changes made by coursera in their CSS and HTML site structure
+Should be Working up to 2020/03
+GreaseMonkey
+
 ```Javascript
 // ==UserScript==
 // @name         Coursera Plus
